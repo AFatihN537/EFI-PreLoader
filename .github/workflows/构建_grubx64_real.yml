@@ -1,6 +1,7 @@
 name: 构建 grubx64_real.efi
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "Yours" ]
     paths:
